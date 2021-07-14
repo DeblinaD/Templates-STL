@@ -6,7 +6,7 @@ template<typename T>
 T Big( T a, T b )
 {
     if(a>b)     //remember we can not use this greater than operator to compare dates, for that the operator needs to be
-    return a;   //overloaded. and that overloading we did in the class below.
+    return a;   //overloaded. and that overloading we did in the class below. even we can not use ternary operator for checking
     else
     return b;
 }
