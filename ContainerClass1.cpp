@@ -11,5 +11,9 @@ int main()
    /*now printing of array*/
    for(int num:a)
    cout<<num<<" ";
+   cout<<endl;
+   
+   /*meathods*/
+   cout<<a.at(2)<<endl;
    return 0;
 }
